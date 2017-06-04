@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<?php 
-			include "include/boothstrap.php";
+			include "include/bootstrap.php";
 			session_start();
 		if (isset($_SESSION["user"])){
 	
@@ -11,7 +11,7 @@
 			header("Location: login.php");
 		}
 		?>
-		<a href="loggaut.php"> Logga ut</a>
+		<a href="logout.php"> Logga ut</a>
 			<div id="form">
 		<form method="POST" action="database.php" name="newForm"> 
 			<br/><label> Kommentar </label> <br/> <textarea name="comment"> </textarea>
