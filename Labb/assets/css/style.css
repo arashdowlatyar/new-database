@@ -1,0 +1,36 @@
+body { 
+    background: url("../img/light.jpg");
+}
+#form {
+    position:absolute; 
+    top:50px; 
+    left:40%;
+}
+label { 
+    color:white; 
+    font-family: helvetica;
+}
+#comments 
+{
+    color:black;
+    background-color:white;
+    width:15%;
+    position:absolute;
+    top:40%;
+    left:40%;
+    word-wrap: break-word;
+}
+a 
+{
+    color:white;
+    float:right;
+    text-decoration:none;
+}
+#loggin 
+{
+    float:right;
+    position:top;
+}
+p{
+    color:white;
+}
