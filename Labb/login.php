@@ -8,8 +8,8 @@
 		<a href="index.php"> Back </a>
 		<div id="form">
 		</div>
-		<form action="loggindatabase.php" method="POST">
-			<input name="user" type="text" placeholder="Användarnamn">
+		<form action="logindatabase.php" method="POST">
+			<input name="username" type="text" placeholder="Användarnamn">
 			<br/><input name="pass" type="password" placeholder="Lösenord">
 			<br/><input type="submit" value="Login" id="btn">
 		</form>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<?php include "include/boothstrap.php";
+		<?php include "include/bootstrap.php";
 
 		?>
 	</head>                             
